@@ -63,8 +63,8 @@ class RouterNokia(RouterBase):
 		return rebootButton
 
 	def __confirmAlertMessage(self):
-		Alert(self.browser).dismiss()
-		#Alert(self.browser).accept()
+		#Alert(self.browser).dismiss()
+		Alert(self.browser).accept()
 		
 	def __go(self):
 		self.__routerUrl ="https://192.168.1.254"		
